@@ -15,16 +15,16 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-def remove(str):
-   new_str = ""
-   print(str)
-   n = int(input("Enter the specified index of the character to remove:"))
-   for i in str :
-        if i != str[n] :
-             new_str = new_str + i
-   print(new_str)
-str = input("Enter a string :")
-remove(str)
+      def remove(str):
+         new_str = ""
+         print(str)
+         n = int(input("Enter the specified index of the character to remove:"))
+         for i in str :
+              if i != str[n] :
+                   new_str = new_str + i
+         print(new_str)
+      str = input("Enter a string :")
+      remove(str)
 
 
 ## Output
