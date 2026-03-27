@@ -10,15 +10,15 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-tup = eval(input("Enter a tuple of elements with characters and numbers:"))
-if 'n' in tup and 8 in tup :
-    print ("The character 'n' and the number (8) are exists in the given tuple")
-elif 'n' in tup and 8 not in tup :
-    print ("The character 'n' exists in the given tuple but the number (8) doesn't exist")
-elif 'n' not in tup and 8 in tup :
-    print ("The number (8) exists in the given tuple but the character 'n' doesn't exist")
-else:
-     print("Both 'n' and 8 are not exist in the givn tuple")
+        tup = eval(input("Enter a tuple of elements with characters and numbers:"))
+        if 'n' in tup and 8 in tup :
+            print ("The character 'n' and the number (8) are exists in the given tuple")
+        elif 'n' in tup and 8 not in tup :
+            print ("The character 'n' exists in the given tuple but the number (8) doesn't exist")
+        elif 'n' not in tup and 8 in tup :
+            print ("The number (8) exists in the given tuple but the character 'n' doesn't exist")
+        else:
+             print("Both 'n' and 8 are not exist in the givn tuple")
 
 ## Output
 <img width="1918" height="519" alt="image" src="https://github.com/user-attachments/assets/6721fb52-b6ab-4ff3-9d55-e5ca8c6a8daa" />
